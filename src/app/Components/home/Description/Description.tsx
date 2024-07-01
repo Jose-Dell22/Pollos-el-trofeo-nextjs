@@ -23,7 +23,7 @@ console.log(buttonStyles);
       <button onClick={handClick} className={buttonStyles}>
        <div className={styles.Description__imagesContainer}>
          <Image
-         src="/images/description.jpeg"
+         src="/images/Description.jpeg"
          alt="products marketplace"
          fill
          placeholder='blur'
