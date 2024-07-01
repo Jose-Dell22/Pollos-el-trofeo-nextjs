@@ -1,0 +1,49 @@
+.Description {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  -moz-column-gap: 2.25rem;
+       column-gap: 2.25rem;
+  max-width: 1000px;
+  margin: 6rem auto;
+  padding: 2rem 2.5rem;
+  border-radius: 1.375rem;
+  background-color: rgba(0, 0, 0, 0.8); /* Fondo semi-transparente negro */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Sombra para resaltar el contenedor */
+}
+.Description__text > h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #eb0377;
+  margin: 0;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  border-bottom: 2px solid #eb0377;
+  padding-bottom: 0.5rem;
+}
+.Description__text > p {
+  font-size: 1.5rem;
+  line-height: 1.75;
+  color: #fff;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+.Description__imagesContainer {
+  position: relative;
+  width: 500px;
+  height: 300px;
+}
+.Description__button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+.Description__button--border img {
+  border: 3px solid #eb0377;
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+.Description > img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  border-radius: 4rem;
+  box-shadow: 0 0 4rem rgba(255, 255, 255, 0.2);
+  border: 2px solid #eb0377;
+}/*# sourceMappingURL=Description.module.css.map */

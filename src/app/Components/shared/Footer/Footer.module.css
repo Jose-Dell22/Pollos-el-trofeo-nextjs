@@ -1,0 +1,8 @@
+.Footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,101,0.6951155462184874) 89%, rgba(0,212,255,1) 100%);
+    color: antiquewhite;
+  }

@@ -1,0 +1,36 @@
+@import './sass/main.scss';
+
+.Hero {
+  h1 {
+    font-family: 'Arial', sans-serif;
+    font-size: 7rem;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 0.05em;
+    margin: 3rem 0;
+    margin-bottom: 1rem;
+    color: #002f3d; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); 
+    background: linear-gradient(270deg, #4f56ff, #ff4980);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 1rem;
+    border: 2px solid #4f56ff; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
+    background-color: rgba(0, 0, 0, 0.8); 
+  }
+
+  h2 {
+    font-size: 2rem;
+    margin: 0 0 3rem 0;
+    text-align: center;
+    color: aqua;
+    padding: 0.5rem;
+    border: 2px solid aqua; 
+    border-radius: 8px; 
+    background-color: rgba(0, 0, 0, 0.8); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
+  }
+}

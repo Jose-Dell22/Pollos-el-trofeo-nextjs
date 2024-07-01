@@ -1,0 +1,59 @@
+@import "./sass/main.scss"; 
+
+.Description {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 2.25rem;
+  max-width: 1000px;
+  margin: 6rem auto;
+  padding: 2rem 2.5rem;
+  border-radius: 1.375rem;
+  background-color: rgba(0, 0, 0, 0.8); /* Fondo semi-transparente negro */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Sombra para resaltar el contenedor */
+
+  &__text {
+    & > h2 {
+      font-size: 2rem;
+      font-weight: 600;
+      color: $color-secondary;
+      margin: 0;
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); 
+      border-bottom: 2px solid $color-secondary; 
+      padding-bottom: 0.5rem; 
+    }
+
+    & > p {
+      font-size: 1.5rem;
+      line-height: 1.75;
+      color: $text-color;
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); 
+    }
+  }
+
+  &__imagesContainer {
+    position: relative;
+    width: 500px;
+    height: 300px;
+  }
+
+  &__button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    
+    &--border {
+      img {
+        border: 3px solid $main-Contrast;
+        border-radius: 1rem; 
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
+      }
+    }
+  }
+
+  & > img {
+    object-fit: contain;
+    border-radius: 4rem;
+    box-shadow: 0 0 4rem rgba(255, 255, 255, 0.2);
+    border: 2px solid $main-Contrast; 
+  }
+}

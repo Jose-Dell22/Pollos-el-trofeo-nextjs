@@ -1,0 +1,30 @@
+.Contactanos {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,101,0.6951155462184874) 89%, rgba(0,212,255,1) 100%);
+  color: antiquewhite;
+}
+
+.Contactanos h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.Contactanos p {
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+}
+
+.Contactanos a {
+  color: #0070f3;
+  text-decoration: underline;
+  font-size: 1.1rem;
+}
+
+.Contactanos a:hover {
+  color: #0366d6;
+}
